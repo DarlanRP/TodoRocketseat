@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex: 1;
+    
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .container div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  
+    font-weight: bold;
+  }
+  
+  .container div:first-child {
+    color: var(--blue);
+  }
+  
+  .container div:last-child {
+    color: var(--purple);
+  }
+  
+  .container div p {
+    font-size: 0.875rem;
+  }
+  
+  .container div span {
+    padding: 2px 8px;
+    border-radius: 16px;
+  
+    font-size: 0.75rem;
+  
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+  }
